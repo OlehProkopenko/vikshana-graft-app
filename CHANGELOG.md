@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.7.0](https://github.com/OlehProkopenko/vikshana-graft-app/compare/graft-v0.6.1...graft-v0.7.0) (2026-08-17)
+
+
+### Features and enhancements
+
+* **agents:** multi-agent orchestration and configurable tool allowlist ([#11](https://github.com/OlehProkopenko/vikshana-graft-app/issues/11)) ([c9055d0](https://github.com/OlehProkopenko/vikshana-graft-app/commit/c9055d0d78ba998cb8de7693c756689f92f646ed))
+* **chat:** Ask Graft AI Assistant modal for panel menu and Explore toolbar ([#18](https://github.com/OlehProkopenko/vikshana-graft-app/issues/18)) ([49dc6e5](https://github.com/OlehProkopenko/vikshana-graft-app/commit/49dc6e54c7ad49bb44de31793aa84e0b4cd0fa8e))
+* **landing:** add settings gear icon to landing page ([#5](https://github.com/OlehProkopenko/vikshana-graft-app/issues/5)) ([88cdb89](https://github.com/OlehProkopenko/vikshana-graft-app/commit/88cdb89d57a5d56438fe0615ec457ffded91f292))
+* **llm:** self-correcting dashboard agent with adaptive layout ([#16](https://github.com/OlehProkopenko/vikshana-graft-app/issues/16)) ([2d26241](https://github.com/OlehProkopenko/vikshana-graft-app/commit/2d26241df15915b5dfa1b016a810fa1c44874b8a))
+
+
+### Bug fixes
+
+* **chat:** placeholder animation, context management, and CI compatibility ([#4](https://github.com/OlehProkopenko/vikshana-graft-app/issues/4)) ([3e916ce](https://github.com/OlehProkopenko/vikshana-graft-app/commit/3e916cedad365b5473bbd38fbcca059ce3c3d74d))
+* **llm:** generate dashboard title from PLAN phase findings ([#21](https://github.com/OlehProkopenko/vikshana-graft-app/issues/21)) ([4850068](https://github.com/OlehProkopenko/vikshana-graft-app/commit/4850068182abc0ad32801505b3716e51b96135ed))
+* **release:** feat bumps minor not patch ([#9](https://github.com/OlehProkopenko/vikshana-graft-app/issues/9)) ([f09105b](https://github.com/OlehProkopenko/vikshana-graft-app/commit/f09105b6290012ef5676fea496354ab5ed3ff0bd))
+
+
+### Documentation
+
+* **plugin:** add info links ([d3b9899](https://github.com/OlehProkopenko/vikshana-graft-app/commit/d3b989938b7270242268177c89d5c4c60c8dcc51))
+
 ## [0.6.1](https://github.com/vikshana/vikshana-graft-app/compare/graft-v0.6.0...graft-v0.6.1) (2026-06-26)
 
 
