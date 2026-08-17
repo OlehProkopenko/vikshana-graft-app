@@ -93,4 +93,4 @@ See [Development Guide](docs/development.md) for build instructions, testing, an
 
 ## License
 
-Graft is distributed under AGPL-3.0. See [LICENSE](LICENSE) for details.
+Graft is distributed under AGPL-3.0. See [LICENSE](LICENSE) for details
