@@ -7,6 +7,11 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to build and release (e.g. v0.6.2)'
+        required: true
 
 permissions: read-all
 
@@ -17,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.inputs.tag || github.ref_name }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -51,7 +58,7 @@ jobs:
         id: metadata
         run: |
           echo "plugin-id=$(cat dist/plugin.json | jq -r '.id')" >> $GITHUB_OUTPUT
-          echo "archive=$(cat dist/plugin.json | jq -r '.id')-${{ github.ref_name }}.zip" >> $GITHUB_OUTPUT
+          echo "archive=$(cat dist/plugin.json | jq -r '.id')-${{ github.event.inputs.tag || github.ref_name }}.zip" >> $GITHUB_OUTPUT
 
       - name: Package plugin
         run: |
